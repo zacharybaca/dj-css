@@ -22,8 +22,40 @@
     display: inline-block;
     border: 5px solid white;
     height: 25vh;
-    width: 25%;
+    width: 50%;
     background-color: #EE2E84;
+    opacity: 1;
+    transition: all 1s ease-in-out;
+}
+
+#red.box1:hover {
+    background-color:blue;
+    opacity: 0.5;
+}
+
+#red.box2:hover {
+    background-color: pink;
+    opacity: 0.2;
+}
+
+#red.box3:hover {
+    background-color: black;
+    opacity: 0.1;
+}
+
+#red.box4:hover {
+    background-color: gold;
+    opacity: 0.60;
+}
+
+#red.box5:hover {
+    background-color: purple;
+    opacity: 0.45;
+}
+
+#red.box6:hover {
+    background-color: green;
+    opacity: 0.35;
 }
 
 #blue {
@@ -93,4 +125,3 @@
     background-color: #E76E34;
 }
 }
-
